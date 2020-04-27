@@ -7,6 +7,13 @@
   .heading h2 {
     font-size: 20px;
   }
+  
+  .teams {
+    flex-wrap: wrap;
+  }
+  .team {
+    width: 50%;
+  }
 }
 
 /* Untuk Smartphone */
@@ -48,4 +55,12 @@
     font-size: 12px;
     line-height: 20px;
   }
+  
+    .teams {
+    flex-direction: column;
+  }
+  
+  /* Tetapkan margin dari .flex-list li ke 0 auto */
+  .team {
+    margin: 0 auto;
 }
